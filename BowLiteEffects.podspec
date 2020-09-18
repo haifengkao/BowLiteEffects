@@ -21,22 +21,23 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Hai\ Feng\ Kao/BowLiteEffects'
+  s.homepage         = 'https://github.com/haifengkao/BowLiteEffects'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Hai\ Feng\ Kao' => 'haifeng@cocoaspice.in' }
-  s.source           = { :git => 'https://github.com/Hai\ Feng\ Kao/BowLiteEffects.git', :tag => s.version.to_s }
+  s.author           = { 'Hai Feng Kao' => 'haifeng@cocoaspice.in' }
+  s.source           = { :git => 'https://github.com/haifengkao/BowLiteEffects.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
+  s.swift_version = '5.1'
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'BowLiteEffects/Classes/**/*'
-  
+
   # s.resource_bundles = {
   #   'BowLiteEffects' => ['BowLiteEffects/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'BowLiteCore'
 end

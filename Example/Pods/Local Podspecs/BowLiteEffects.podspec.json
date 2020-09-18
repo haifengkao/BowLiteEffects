@@ -1,0 +1,29 @@
+{
+  "name": "BowLiteEffects",
+  "version": "0.1.0",
+  "summary": "A short description of BowLiteEffects.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Hai\\ Feng\\ Kao/BowLiteEffects",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Hai\\ Feng\\ Kao": "haifeng@cocoaspice.in"
+  },
+  "source": {
+    "git": "https://github.com/Hai\\ Feng\\ Kao/BowLiteEffects.git",
+    "tag": "0.1.0"
+  },
+  "swift_versions": "5.1",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "BowLiteEffects/Classes/**/*",
+  "dependencies": {
+    "BowLiteCore": [
+
+    ]
+  },
+  "swift_version": "5.1"
+}

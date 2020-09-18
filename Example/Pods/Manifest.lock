@@ -1,0 +1,27 @@
+PODS:
+  - BowLiteEffects (0.1.0)
+  - Nimble (8.1.2)
+  - Quick (2.2.1)
+
+DEPENDENCIES:
+  - BowLiteEffects (from `../`)
+  - Nimble (~> 8.0)
+  - Quick (~> 2.0)
+
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
+EXTERNAL SOURCES:
+  BowLiteEffects:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BowLiteEffects: 6000a1edd175b5b2a8e3fd956210e6add7a1f69a
+  Nimble: 3864815b4703c7ebffba875973c70e854489fbae
+  Quick: f5754d69b7013f5864c29aab9ae6f0c79c5bc200
+
+PODFILE CHECKSUM: c667c9c182d0c2c5ad070145e89cb32f7631cbec
+
+COCOAPODS: 1.9.3
