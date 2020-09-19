@@ -1,6 +1,6 @@
 {
   "name": "BowLiteEffects",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "summary": "A short description of BowLiteEffects.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/haifengkao/BowLiteEffects",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/haifengkao/BowLiteEffects.git",
-    "tag": "0.1.0"
+    "tag": "0.2.0"
   },
   "swift_versions": "5.1",
   "platforms": {
@@ -23,7 +23,7 @@
   "source_files": "BowLiteEffects/Classes/**/*",
   "dependencies": {
     "BowLiteCore": [
-
+      ">= 0.5.0"
     ]
   },
   "swift_version": "5.1"
