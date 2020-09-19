@@ -30,6 +30,8 @@ TODO: Add long description of the pod here.
 
   s.swift_version = '5.1'
   s.ios.deployment_target = '10.0'
+  s.osx.deployment_target  = '10.12'
+
 
   s.source_files = 'BowLiteEffects/Classes/**/*'
 
